@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  list-style: none;
+}
+
+body {
+  background: linear-gradient(to right, #e2e5f8, #f7ecfb);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1.1rem;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+select {
+  background-color: #f2994a;
+  -moz-appearance:none;
+  -webkit-appearance:none;
+  appearance:none;
+  background: url('assets/icons/select.png') 96% / 15% no-repeat #f2994a;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &::after {
+    content: url('assets/icons/select.png');
+  }
+}
+
+.search-textbox {
+  background: url('assets/icons/search-icon.png') 96% / 15% no-repeat scroll;
+  padding-left:30px;
+}
+
+.search-textbox, select {
+  margin-bottom: 20px;
+  padding: 7px 20px;
+  width: 230px;
+  background-color: #f2994a;
+  color: #fff;
+  font-size: 1.1rem;
+  border: none;
+  outline: none;
+
+  &::placeholder {
+    color: #fff;
+    opacity: 1;
+  }
+
+  &:-ms-input-placeholder {
+    color: #fff;
+  }
+
+  &::-ms-input-placeholder {
+    color: #fff;
+  }
+}
+
+.bottom-controls {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.display-type {
+  padding-left: 0;
+  .type {
+    display: inline-block;
+    padding: 5px 10px;
+
+    &:last-child {
+      padding-right: 0;
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    &.active {
+      background-color: #f2994a;
+      color: #fff;
+    }
+
+    &.active:last-child {
+      padding-right: 10px;
+    }
+  }
+}

@@ -1,0 +1,80 @@
+<div class="top-controls">
+  <app-search
+  searchValue="{{ searchValue }}"
+  (input)="showSearchValue($event)"
+  >
+  </app-search>
+  <app-genres
+  [genres]="genres"
+  (change)="showGenreChanges($event)"
+  >
+  </app-genres>
+  <app-networks
+  [networks]="networks"
+  (change)="showNetworkChanges($event)"
+  >
+  </app-networks>
+  <app-years
+  [years]="years"
+  (change)="showYearChanges($event)"
+  >
+  </app-years>
+</div>
+
+<div class="header" (click)="sortItems($event)">
+  <p class="column column-header name">Name</p>
+  <p class="column column-header season">Season</p>
+  <p class="column column-header network">Network</p>
+  <p class="column column-header premiere">Premiere</p>
+</div>
+
+<div class="content">
+  <div
+  class="tv-show"
+  *ngFor="let item of tvShows |
+  search: searchValue |
+  genre: genreValue |
+  network: networkValue |
+  year: yearValue |
+  paginate: { itemsPerPage: itemsToDisplay, currentPage: currentPage }"
+  >
+    <div class="column title">
+      {{ item.name }}
+      <div class="genres-container">
+        <p
+        class="genre"
+        *ngFor="let genre of item.genre"
+        [ngClass]="genre"
+        >
+        {{ genre }}
+        </p>
+      </div>
+    </div>
+    <p class="column season">{{ item.season }}</p>
+    <p class="column network">{{ item.network | space }}</p>
+    <p class="column premiere">{{ item.premiere }}</p>
+  </div>
+</div>
+
+<div class="bottom-controls">
+  <pagination-controls
+  class="custom-pagination"
+  (pageChange)="currentPage = $event"
+  >
+  </pagination-controls>
+
+  <div>
+    <ul
+    class="display-type"
+    (click)="showActiveType($event)"
+    >
+      <li
+      class="type"
+      *ngFor="let item of itemsOnPage; first as isFirst"
+      [class.active]="isFirst"
+      >
+      {{ item }}
+      </li>
+    </ul>
+  </div>
+</div>

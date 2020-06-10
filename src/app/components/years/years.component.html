@@ -1,0 +1,11 @@
+<select
+  class="years"
+  [(ngModel)]="yearValue"
+  >
+    <option hidden [value]="" selected>Premiere Year</option>
+    <option
+    *ngFor="let year of years"
+    >
+    {{ year }}
+    </option>
+  </select>

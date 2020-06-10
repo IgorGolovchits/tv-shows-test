@@ -1,0 +1,228 @@
+{
+  "tvShows": [
+    {
+      "name": "Game of Thrones",
+      "genre": ["drama", "fantasy"],
+      "season": "8",
+      "network": ["HBO"],
+      "premiere": "17.04.2011"
+    },
+    {
+      "name": "Stranger Things",
+      "genre": ["fantasy", "tragedy"],
+      "season": "3",
+      "network": ["Netflix"],
+      "premiere": "11.07.2016"
+    },
+    {
+      "name": "American Horror Story",
+      "genre": ["horror"],
+      "season": "9",
+      "network": ["FOX"],
+      "premiere": "05.10.2011"
+    },
+    {
+      "name": "Westworld",
+      "genre": ["western"],
+      "season": "3",
+      "network": ["HBO"],
+      "premiere": "02.10.2016"
+    },
+    {
+      "name": "Black Mirror",
+      "genre": ["fantasy"],
+      "season": "5",
+      "network": ["Netflix"],
+      "premiere": "04.12.2011"
+    },
+    {
+      "name": "Peaky Blinders",
+      "genre": ["drama"],
+      "season": "5",
+      "network": ["BBC Two"],
+      "premiere": "12.09.2013"
+    },
+    {
+      "name": "Crown",
+      "genre": ["drama"],
+      "season": "3",
+      "network": ["Netflix"],
+      "premiere": "04.11.2016"
+    },
+    {
+      "name": "The Young Pope",
+      "genre": ["drama"],
+      "season": "1",
+      "network": ["Sky Atlantic"],
+      "premiere": "21.10.2016"
+    },
+    {
+      "name": "Sex and the City",
+      "genre": ["comedy"],
+      "season": "6",
+      "network": ["HBO"],
+      "premiere": "06.06.1998"
+    },
+    {
+      "name": "Breaking Bad",
+      "genre": ["drama", "crime"],
+      "season": "6",
+      "network": ["Sony Pictures Television"],
+      "premiere": "20.01.2008"
+    },
+    {
+      "name": "Fargo",
+      "genre": ["drama", "crime", "detective"],
+      "season": "4",
+      "network": ["FOX"],
+      "premiere": "15.04.2014"
+    },
+    {
+      "name": "House, M.D.",
+      "genre": ["drama"],
+      "season": "4",
+      "network": ["FOX"],
+      "premiere": "16.01.2004"
+    },
+    {
+      "name": "Desperate Housewives",
+      "genre": ["comedy"],
+      "season": "8",
+      "network": ["ABC"],
+      "premiere": "03.10.2004"
+    },
+    {
+      "name": "LOST",
+      "genre": ["drama"],
+      "season": "6",
+      "network": ["ABC"],
+      "premiere": "22.09.2004"
+    },
+    {
+      "name": "Grey's Anatomy",
+      "genre": ["drama"],
+      "season": "16",
+      "network": ["ABC"],
+      "premiere": "27.03.2005"
+    },
+    {
+      "name": "Friends",
+      "genre": ["comedy"],
+      "season": "10",
+      "network": ["NBC"],
+      "premiere": "22.09.1994"
+    },
+    {
+      "name": "Body of Proof",
+      "genre": ["drama", "comedy"],
+      "season": "3",
+      "network": ["ABC"],
+      "premiere": "29.03.2011"
+    },
+    {
+      "name": "How I Met Your Mother",
+      "genre": ["comedy"],
+      "season": "9",
+      "network": ["CBS"],
+      "premiere": "19.09.2005"
+    },
+    {
+      "name": "Castle",
+      "genre": ["comedy", "drama"],
+      "season": "8",
+      "network": ["ABC"],
+      "premiere": "09.03.2009"
+    },
+    {
+      "name": "Big Little Lies",
+      "genre": ["drama"],
+      "season": "2",
+      "network": ["HBO"],
+      "premiere": "19.02.2017"
+    },
+    {
+      "name": "Gossip Girl",
+      "genre": ["drama"],
+      "season": "6",
+      "network": ["The CW"],
+      "premiere": "19.09.2007"
+    },
+    {
+      "name": "The Witcher",
+      "genre": ["fantasy", "drama"],
+      "season": "1",
+      "network": ["Netflix"],
+      "premiere": "20.12.2019"
+    },
+    {
+      "name": "White Collar",
+      "genre": ["detective", "drama"],
+      "season": "6",
+      "network": ["USA Network"],
+      "premiere": "23.10.2009"
+    },
+    {
+      "name": "Suits",
+      "genre": ["drama"],
+      "season": "9",
+      "network": ["USA Network"],
+      "premiere": "23.06.2011"
+    },
+    {
+      "name": "The Good Doctor",
+      "genre": ["drama"],
+      "season": "3",
+      "network": ["ABC"],
+      "premiere": "25.09.2017"
+    },
+    {
+      "name": "Supernatural",
+      "genre": ["horror", "fantasy"],
+      "season": "15",
+      "network": ["The WB"],
+      "premiere": "13.09.2005"
+    },
+    {
+      "name": "American Gods",
+      "genre": ["fantasy", "drama"],
+      "season": "2",
+      "network": ["Starz"],
+      "premiere": "30.04.2017"
+    },
+    {
+      "name": "True Detective",
+      "genre": ["detective", "crime"],
+      "season": "3",
+      "network": ["HBO"],
+      "premiere": "12.01.2014"
+    },
+    {
+      "name": "Sherlock",
+      "genre": ["detective", "drama"],
+      "season": "4",
+      "network": ["BBC One"],
+      "premiere": "25.07.2010"
+    },
+    {
+      "name": "The Office",
+      "genre": ["comedy"],
+      "season": "9",
+      "network": ["NBC"],
+      "premiere": "25.03.2005"
+    },
+    {
+      "name": "Parks and Recreation",
+      "genre": ["comedy"],
+      "season": "7",
+      "network": ["NBC"],
+      "premiere": "09.04.2009"
+    },
+    {
+      "name": "Orange is the New Black",
+      "genre": ["comedy", "drama"],
+      "season": "7",
+      "network": ["Netflix"],
+      "premiere": "11.07.2013"
+    }
+  ]
+}

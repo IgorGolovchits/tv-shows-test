@@ -1,0 +1,11 @@
+<select
+  class="networks"
+  [(ngModel)]="networkValue"
+  >
+    <option hidden [value]="" selected>Network</option>
+    <option
+    *ngFor="let network of networks"
+    >
+    {{ network }}
+    </option>
+  </select>

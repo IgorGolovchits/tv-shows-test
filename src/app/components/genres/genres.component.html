@@ -1,0 +1,11 @@
+<select
+  class="genres"
+  [(ngModel)]="genreValue"
+  >
+    <option hidden [value]="" selected>Genres</option>
+    <option
+    *ngFor="let genre of genres"
+    >
+    {{ genre }}
+    </option>
+  </select>
